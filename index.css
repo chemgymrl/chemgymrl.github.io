@@ -4,7 +4,7 @@
 }
 
 .wrapper {
-	width: 1000px;
+	width: 1170px;
 	margin: 0 auto;
 }
 header {
@@ -14,11 +14,10 @@ header {
 	z-index: 10;
 	position: fixed;
 } 
-
 .logo {
 	float: left;
 	line-height: 100px;
-	text-indent: 15px;
+	text-indent: 20px;
 }
 .logo a {
 	text-decoration: none;
