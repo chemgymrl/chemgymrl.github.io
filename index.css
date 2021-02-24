@@ -14,9 +14,7 @@ header {
 	z-index: 10;
 	position: fixed;
 } 
-.header-buttons {
-	float: right;
-}
+
 .logo {
 	float: left;
 	line-height: 100px;
