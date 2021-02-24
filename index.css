@@ -152,7 +152,7 @@ html {
 }
 
 footer{
-	position: relative;
+	position: sticky;
 	bottom: 0;
 }
 .footer-distributed{
