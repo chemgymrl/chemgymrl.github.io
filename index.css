@@ -7,10 +7,12 @@
 	width: device-width;
 	zoom: 1.0 ;
   }
+
 .wrapper {
-	width: 1170px;
+	width: 100%;
 	margin: 0 auto;
 }
+
 header {
 	height: 100px;
 	background: #262626;
