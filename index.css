@@ -322,6 +322,11 @@ footer{
 		position: relative;
 		top: 0;
 	}
+
+	.cards {
+		display: block;
+	}
+	
 	.footer-distributed{
 		font: bold 14px sans-serif;
 	
