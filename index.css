@@ -36,6 +36,7 @@ nav {
 	float: right;
 	line-height: 100px;
 }
+
 nav a {
 	text-decoration: none;
 	font-family: Lora;
@@ -44,6 +45,7 @@ nav a {
 	margin: 0 10px;
 	color: #fff;
 }
+
 .banner-area {
 	width: 100%;
 	height: 500px;
@@ -293,9 +295,33 @@ footer{
 	margin-bottom: 5px;
 }
  
+@media (max-width: 945px) {
  
-@media (max-width: 880px) {
- 
+	nav {
+		clear: both;
+		width: 100%;
+	}
+
+	nav a {
+		display: block;
+		font-size: 1em;
+	}
+
+	header {
+		position: relative;
+		height: auto;	
+		text-align: center;
+	}
+	
+	.banner-area {
+		position: relative;
+		top: 0;
+	}
+
+	.content-area {
+		position: relative;
+		top: 0;
+	}
 	.footer-distributed{
 		font: bold 14px sans-serif;
 	
