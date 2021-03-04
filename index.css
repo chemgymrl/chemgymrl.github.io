@@ -323,10 +323,6 @@ footer{
 		top: 0;
 	}
 
-	.cards {
-		display: block;
-	}
-	
 	.footer-distributed{
 		font: bold 14px sans-serif;
 	
@@ -360,4 +356,18 @@ footer{
   
 .fa-twitter {
 	color: white;
+}
+
+@media (max-width: 780px) {
+	.cards {
+		display: block;
+		width: 100%;
+		padding: 0;
+	}
+
+	.card {
+		width: 80%;
+		margin: auto;
+		margin-top: 1em;
+	}
 }
