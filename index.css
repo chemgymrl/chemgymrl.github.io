@@ -28,7 +28,7 @@ header {
 .logo a {
 	text-decoration: none;
 	font-size: 30px;
-	font-family:Varela;
+	font-family: Crimson Text;
 	color: #fff;
 	letter-spacing: 5px;
 }
@@ -39,7 +39,7 @@ nav {
 
 nav a {
 	text-decoration: none;
-	font-family:Varela;
+	font-family: Crimson Text;
 	letter-spacing: 4px;
 	font-size: 20px;
 	margin: 0 10px;
@@ -59,7 +59,7 @@ nav a {
 .banner-area h2 {
 	padding-top: 8%;
 	font-size: 70px;
-	font-family:Varela;
+	font-family: Crimson Text;
 	color: #fff;
 }
 .content-area {
@@ -70,7 +70,7 @@ nav a {
 	height: 1000px;
 }
 .content-area h2 {
-	font-family:Varela;
+	font-family: Crimson Text;
 	letter-spacing: 4px;
 	padding-top: 30px;
 	font-size: 40px;
@@ -78,7 +78,7 @@ nav a {
 }
 .content-area p {
 	padding: 2% 0px;
-	font-family:Varela;
+	font-family: Crimson Text;
 	line-height: 30px;
 }
 
@@ -88,14 +88,14 @@ nav a {
 }
 
 body{
- font-family:Varela;
+ font-family: Crimson Text;
  height: 100%;
  min-height: 100%;
 }
 
 .cards {
 	display: flex;
-    font-family:Varela;
+    font-family: Crimson Text;
     padding: 100px;
     padding-bottom: 50px;
 }
@@ -152,7 +152,7 @@ body{
 }
 
 .API {
-	font-family:Varela;
+	font-family: Crimson Text;
 }
 
 html {
