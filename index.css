@@ -371,3 +371,42 @@ footer{
 		margin-top: 1em;
 	}
 }
+
+/*team*/
+
+.team figure {
+    width: 100%;
+}
+
+.team img {
+    width: 100%;
+}
+
+.team b {
+    font-size: 1.2em;
+    display: block;
+}
+
+.team a i.fa {
+    color: #fff;
+    font-size: 2em;
+}
+
+.team a i.fa:hover {
+    color: #E89F10;
+}
+
+.highlight-info {
+    background: url(../images/lab.jpg) center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+.highlight-info .overlay {
+    background: rgba(59, 51, 48, 0.7);
+}
+
+.highlight-info h4 {
+    color: #fff;
+    margin: 0.5em 0 0 0;
+}
