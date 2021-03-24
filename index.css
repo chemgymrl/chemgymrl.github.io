@@ -344,6 +344,10 @@ footer{
 		line-height: normal;
 		font-size: auto;
 	}
+
+	.card {
+		margin: 30px;
+	}
 }
 
 .fa:hover {
