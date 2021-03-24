@@ -374,6 +374,18 @@ footer{
 		margin: auto;
 		margin-top: 1em;
 	}
+
+	.Cards {
+		display: block;
+		width: 100%;
+		padding: 0;
+	}
+
+	.Card {
+		width: 80%;
+		margin: auto;
+		margin-top: 1em;
+	}
 }
 
 /* Team */
