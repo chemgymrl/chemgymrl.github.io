@@ -94,6 +94,7 @@ body{
 
 .cards {
 	display: flex;
+	flex-wrap: wrap;
     font-family: Crimson Text;
     padding: 50px;
     padding-bottom: 50px;
@@ -105,11 +106,10 @@ body{
 
 .card {
 	margin: 30px;
-	flex: 1;
 }
 
 .card__image {
-    width: 100%;
+    width: 400px;
     height: 300px;
     display: block;
     border-top: 2px solid #333333;
@@ -144,14 +144,6 @@ body{
 
 .card__link:hover {
     text-decoration: underline;
-}
-
-.subtitle {
-	font-size: 30px;
-}
-
-.API {
-	font-family: Crimson Text;
 }
 
 html {
@@ -347,6 +339,15 @@ footer{
 	.card {
 		margin: 30px;
 	}
+
+	.cards {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.card_image {
+		width: 100%;
+	}
 }
 
 .fa:hover {
@@ -369,7 +370,7 @@ footer{
 	}
 
 	.card {
-		width: 80%;
+		width: 50%;
 		margin: auto;
 		margin-top: 1em;
 	}
