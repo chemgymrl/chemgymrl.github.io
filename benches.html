@@ -41,15 +41,13 @@
 		</header>
 		<div style="text-align: left; margin-top: 150px; margin-left: 50px; margin-right: 50px">
 			<h1 style="text-align: center">ChemGymRL Benches</h1>
-			<p>The <code>ChemGymRL</code> environment has four benches available: the reaction bench, the extraction bench, the distillation bench and the characterization bench.</p>
+			<p>The <code>ChemGymRL</code> environment consists of four benches and a lab manager tasked with organizing the experimentation occurring at each bench. The four benches available to agents under the direction of the lab manager include: the reaction bench, the extraction bench, the distillation bench, and the characterization bench.</p>
 				
-			<p>The reaction bench performs a series of reactions in a single vessel, with an agent choosing from a select family of reactions to perform on the materials in the vessel. The extraction bench moves materials between a series of vessels by separating them using the different densities of the materials in the initial vessel, with the help of the agent selecting an appropriate solute to add into the mixture to separate the compounds in the solution. The distillation bench evaporates individual materials by using the different boiling points of the elements in the initial vessel, and by using that, the agent is able to isolate materials in their own vessels.</p>
+			<p>The <code>ChemGymRL</code> environment aims to simulate laboratory processes performed by agents trained by means of reinforcement learning algorithms. The goal of the ChemGymRL environment, similar to many laboratory processes and experiments, is to produce, isolate, and extract a valuable material. The lab manager is instructed by the user to acquire such a material and the lab manager dispatches agents to the various benches to do so.</p>
 
-			<p>Each bench utilizes vessels to contain materials and perform processes on the vessels. The reaction bench uses a single vessel while the extraction and distillation benches each use three vessels to ease the separation process.</p>
-
-			<p>On top of that, there is a lab manager that is able to direct and inspect results from sub agents that carry out tasks for individual benches, and is also able to take materials from bench to bench using the vessels. Each bench can be initiated with an empty vessel(s) or be provided with a vessel(s) from previously completed benches using the lab manager.</p> 
+			<p>Each bench contributes to this goal by providing experimentation methods that, when used in tandem, can produce the desired output. The reaction bench performs a series of reactions yielding various products. The extraction bench allows for the extraction of certain materials that would otherwise be mixed together with unwanted byproducts. The distillation bench heats up materials allowing certain materials to be extracted in their gaseous forms. The characterization bench allows the agents and lab managers to inspect containers of materials and determine their contents.</p>
 			
-			<p>Make sure to check out our documentation <a href="https://chemgymrl.readthedocs.io/en/latest/">here</a> for more information about the Lab Manager or to learn more about the benches and what they have to offer!</p>
+			<p>Make sure to check out our documentation <a href="https://chemgymrl.readthedocs.io/en/latest/">here</a> where you can learn more information about the benches, lab manager, and start performing experiments with the ChemGymRL environment!</p>
 		</div>
 		<div class="cards">
 			<div class="card">
@@ -95,7 +93,7 @@
 			    <img class="card__image" src="analysis.png" alt="...">
 			    <div class="card__content">
 			      <p style="text-align: center">
-					Minimal detail about the analysis bench
+					Minimal detail about the characterization bench
 			      </p>
 			    </div>
 			    <div class="card__info">
