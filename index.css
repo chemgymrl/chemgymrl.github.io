@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
@@ -28,7 +30,7 @@ header {
 .logo a {
 	text-decoration: none;
 	font-size: 30px;
-	font-family: Crimson Text;
+	font-family: 'Crimson Text';
 	color: #fff;
 	letter-spacing: 5px;
 }
@@ -39,7 +41,7 @@ nav {
 
 nav a {
 	text-decoration: none;
-	font-family: Crimson Text;
+	font-family: 'Crimson Text';
 	letter-spacing: 4px;
 	font-size: 20px;
 	margin: 0 10px;
@@ -59,7 +61,7 @@ nav a {
 .banner-area h2 {
 	padding-top: 8%;
 	font-size: 70px;
-	font-family: Crimson Text;
+	font-family: 'Crimson Text';
 	color: #fff;
 }
 .content-area {
@@ -70,14 +72,14 @@ nav a {
 	height: 1000px;
 }
 .content-area h2 {
-	font-family: Crimson Text;
+	font-family: 'Crimson Text';
 	letter-spacing: 4px;
 	padding-top: 30px;
 	font-size: 40px;
 	margin: 0;
 }
 .content-area p {
-	font-family: Crimson Text;
+	font-family: 'Crimson Text';
 	line-height: 30px;
 }
 
@@ -87,7 +89,7 @@ nav a {
 }
 
 body {
- font-family: Crimson Text;
+ font-family: 'Crimson Text';
  height: 100%;
  min-height: 100%;
 }
@@ -95,7 +97,7 @@ body {
 .cards {
 	display: flex;
 	flex-wrap: wrap;
-    font-family: Crimson Text;
+    font-family: 'Crimson Text';
     padding: 50px;
     padding-bottom: 50px;
 }
@@ -153,6 +155,7 @@ html {
 footer{
 	position: relative;
 	bottom: 0;
+	font-family: 'Crimson Text';
 }
 .footer-distributed{
 	background-color: #292c2f;
@@ -160,8 +163,8 @@ footer{
 	box-sizing: border-box;
 	width: 100%;
 	text-align: left;
-	font: bold 16px sans-serif;
- 
+	font: bold 16px;
+	
 	padding: 55px 50px;
 	margin-top: 80px;
 }
