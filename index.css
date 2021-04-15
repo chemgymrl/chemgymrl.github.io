@@ -408,7 +408,6 @@ footer{
 	}
 
 	.Cards {
-		display: block;
 		width: 100%;
 		padding: 0;
 	}
@@ -418,5 +417,9 @@ footer{
 		width: 80%;
 		margin: auto;
 		margin-top: 1em;
+	}
+
+	.row {
+		display: block;
 	}
 }
