@@ -5,6 +5,10 @@
 	padding: 0;
 }
 
+body {
+	background: #ebebeb;
+}
+
 @viewport {
 	width: device-width;
 	zoom: 1.0 ;
@@ -314,7 +318,7 @@ footer{
 	.content-area {
 		position: relative;
 		top: 0;
-		height: 1200px;
+		height: 600px;
 	}
 
 	.footer-distributed{
@@ -369,7 +373,7 @@ footer{
 	.content-area {
 		position: relative;
 		top: 0;
-		height: 1500px;
+		height: 1250px;
 	}
 
 	.cards {
