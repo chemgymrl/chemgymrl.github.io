@@ -8,7 +8,7 @@
 @viewport {
 	width: device-width;
 	zoom: 1.0 ;
-  }
+}
 
 .wrapper {
 	width: 100%;
@@ -314,6 +314,7 @@ footer{
 	.content-area {
 		position: relative;
 		top: 0;
+		height: 1200px;
 	}
 
 	.footer-distributed{
