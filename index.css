@@ -164,7 +164,6 @@ footer{
 	width: 100%;
 	text-align: left;
 	font: bold 16px;
-	
 	padding: 55px 50px;
 	margin-top: 80px;
 }
@@ -340,7 +339,7 @@ footer{
 	}
 
 	.card {
-		margin: 30px;
+		margin: 10px;
 	}
 
 	.cards {
