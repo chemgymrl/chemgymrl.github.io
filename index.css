@@ -399,18 +399,6 @@ footer{
 		height: 1100px;
 	}
 
-	.cards {
-		display: block;
-		width: 100%;
-		padding: 0;
-	}
-
-	.card {
-		width: 80%;
-		margin: auto;
-		margin-top: 1em;
-	}
-
 	.Cards {
 		width: 100%;
 		padding: 0;
@@ -425,5 +413,23 @@ footer{
 
 	.row {
 		display: block;
+	}
+}
+
+@media (max-width: 516px) {
+	.card_image {
+		width: 100%;
+	}
+
+	.cards {
+		display: block;
+		width: 100%;
+		padding: 0;
+	}
+
+	.card {
+		width: 80%;
+		margin: auto;
+		margin-top: 1em;
 	}
 }
