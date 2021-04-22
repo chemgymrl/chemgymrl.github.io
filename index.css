@@ -60,11 +60,12 @@ nav a {
 }
 
 .banner-area h2 {
-	padding-top: 8%;
+	padding-top: 4%;
 	font-size: 70px;
 	font-family: 'Crimson Text';
 	color: white;
 }
+
 .content-area {
 	width: 100%;
 	position: relative;
@@ -72,6 +73,7 @@ nav a {
 	background: #ebebeb;
 	height: 1000px;
 }
+
 .content-area h2 {
 	font-family: 'Crimson Text';
 	letter-spacing: 4px;
@@ -79,6 +81,7 @@ nav a {
 	font-size: 40px;
 	margin: 0;
 }
+
 .content-area p {
 	font-family: 'Crimson Text';
 	line-height: 30px;
